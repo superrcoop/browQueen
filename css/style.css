@@ -105,14 +105,14 @@ Navigation bar
 Banner
 ************************************/
 .banner{
-	background: url('../img/spa-banner.jpg') no-repeat center top;
+	background: url('../img/bq-banner.png') no-repeat center top;
     background-size: cover;
-	min-height: 580px;
+	min-height: 800px;
     position: relative;
 }
 .bg-color{
 	background-color: RGBA(12, 11, 11, 0.2);
-	min-height: 580px;
+	min-height: 800px;
 }
 .text-dec{
 	font-size: 24px;
@@ -307,10 +307,20 @@ Price Table
     box-shadow: 0px 0px 1px 0px RGBA(0, 0, 0, 0.4);
     position: relative;
 }
+
+#pricing {
+    background: url('../img/camomile.jpg') no-repeat center top;
+    background-size: cover;
+    min-height: 800px;
+    position: relative;
+}
+
+
 .price-table .pricing-head {
     background: #fff;
     padding: 40px;
     text-align: center;
+    float : center; 
 }
 .price-table .pricing-head h4 {
     font-size: 22px;
@@ -321,14 +331,14 @@ Price Table
     padding-bottom: 20px;
 }
 .pricing-head .amount {
-    font-size: 60px;
+    font-size: 20px;
     font-weight: bold;
 }
 .pricing-head .curency {
     display: inline-block;
     position: relative;
-    top: -30px;
-    font-size: 20px;
+    top: -5px;
+    font-size: 15px;
 }
 .price-in {
     background: #fff;
