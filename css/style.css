@@ -18,11 +18,7 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-    width: 100%;
-}
+
 .section-padding{
 	padding: 60px 0px;
 }
@@ -194,12 +190,20 @@ Price Table
 
 th, td {
     padding: 5px;
+    padding-left: 60px;
+    text-align: left;
 }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
 
 
 .price-table .pricing-head {
     background: #fff;
-    padding: 40px;
+    padding: 80px;
     text-align: center;
     float : center; 
 }
@@ -214,6 +218,7 @@ th, td {
 .pricing-head .amount {
     font-size: 20px;
     font-weight: bold;
+    text-align: right;
 }
 .pricing-head .curency {
     display: inline-block;
@@ -289,6 +294,10 @@ Contact Us
 /***********************************
 Footer
 ************************************/
+.credits{
+    font-size: 14px;
+    margin-top: 20px;
+}
 .footer {
     padding: 60px 0 20px;
     background: #111;
